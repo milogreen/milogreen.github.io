@@ -1,0 +1,50 @@
+@use "./styles/theme.scss" as *;
+@use "./styles/type.scss" as *;
+@use "./styles/spacing.scss" as *;
+
+body {
+	background: $background;
+	color: $on-bg-primary;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+p {
+	@include body-02;
+	margin-top: 0;
+	margin-bottom: $spacing-06;
+}
+
+h1 {
+	@include heading-07;
+}
+
+h2 {
+	@include heading-06;
+}
+
+h3 {
+	@include heading-05;
+}
+
+h4 {
+	@include heading-04;
+}
+
+h5 {
+	@include heading-03;
+}
+
+h6 {
+	@include heading-02;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -5,7 +5,7 @@ import {
 	Routes,
 	Route,
 } from "react-router-dom";
-import './index.css';
+import './index.scss';
 import App from './App';
 
 const rootElement = document.getElementById('root');
